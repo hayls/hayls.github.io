@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hayley Zheng Portfolio">
+    <title>Hayley Zheng</title>
+    <!--        link to css-->
+    <link href="index.css" rel="stylesheet">
+
+    <!--   SCRIPTS  -->
+    <!--    <script src="p5/p5.min.js"></script>-->
+    <!--     load p5js sketches here-->
+    <!--    <script src="index-sketch.js"></script>-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script>
+        function setup() {
+//            var canvas = createCanvas(windowWidth, windowHeight);
+            var canvas = createCanvas(windowWidth, windowHeight);
+            canvas.parent('sketch-div');            
+            background('#f4f1ea');
+        }
+
+
+        function draw() {
+            fill(255);
+            stroke('#a6aa9d');
+            ellipse(mouseX, mouseY, 50, 50);
+        }
+    </script>
+
+    <style>
+        canvas {
+            /*            border: thin solid red;*/
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div class="menu-container">
+        <div class="menu">
+            <div class="home"><a href="index.html">HOME</a></div>
+            <div class="work"><a href="work.html">WORK</a></div>
+            <div class="logo"><img src="assets/imgs/logo.svg" alt="logo" width="45px"></div>
+            <div class="info"><a href="info.html">INFO</a></div>
+            <div class="research"><a href="research.html">RESEARCH</a></div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+
+
+        <div class="text-container">
+            <div class="top-bar">
+
+                <img src="assets/imgs/welcome.svg" alt="welcome" width="70px">
+
+                <div class="top-right">
+                    <h2 id="collab-text">OUR FIRST COLLABORATIVE WORK</h2>
+                    <img src="assets/imgs/smile.svg" width="20px" alt="smile">
+
+                </div>
+            </div>
+
+            <div id="sketch-div"></div>
+
+            <div class="bottom-bar">
+                
+                <div id="clockbox"></div>
+
+                <script type="text/javascript">
+                    var tday = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+                    var tmonth = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+
+                    function GetClock() {
+                        var d = new Date();
+                        var nday = d.getDay(),
+                            nmonth = d.getMonth(),
+                            ndate = d.getDate(),
+                            nyear = d.getFullYear();
+                        var nhour = d.getHours(),
+                            nmin = d.getMinutes(),
+                            nsec = d.getSeconds(),
+                            ap;
+
+                        if (nhour == 0) {
+                            ap = " AM";
+                            nhour = 12;
+                        } else if (nhour < 12) {
+                            ap = " AM";
+                        } else if (nhour == 12) {
+                            ap = " PM";
+                        } else if (nhour > 12) {
+                            ap = " PM";
+                            nhour -= 12;
+                        }
+
+                        if (nmin <= 9) nmin = "0" + nmin;
+                        if (nsec <= 9) nsec = "0" + nsec;
+
+                        var clocktext = ndate + " " +  tmonth[nmonth] + " "  + nyear + ", " + nhour + ":" + nmin + ":" + nsec + ap + "";
+                        
+                        
+                        document.getElementById('clockbox').innerHTML = clocktext;
+                    }
+
+                    GetClock();
+                    setInterval(GetClock, 1000);
+                </script>
+
+                <!--                <h2>NAME &amp; DATE</h2>-->
+                <h2>SCREENSHOT ME&#33;</h2>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</body></html>
