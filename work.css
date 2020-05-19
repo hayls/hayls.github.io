@@ -97,13 +97,13 @@ body {}
 
 .menu a:hover {
     text-decoration: line-through;
-        
-/*
+
+    /*
     -webkit-transition: color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 */
-    
+
 }
 
 /*type styling*/
@@ -142,6 +142,19 @@ h3 {
     margin-bottom: 3px;
 }
 
+h4 {
+    text-align: center;
+    color: #fff;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 1.2rem;
+    
+/*    font-family: "Happy-Times-Italic", serif;
+    font-size: 0.75rem;*/
+    font-weight: 100;
+    letter-spacing: 0.6px;
+
+}
+
 
 p {
     color: #444;
@@ -164,14 +177,14 @@ a {
 
 
 a:hover {
-/*    color: #b59784;*/
-/*    color: #8d6054;*/
-/*    color: #b2ada2;*/
-/*    color: #a69c87;*/
-/*    color: #adb2a2;*/
-    
+    /*    color: #b59784;*/
+    /*    color: #8d6054;*/
+    /*    color: #b2ada2;*/
+    /*    color: #a69c87;*/
+    /*    color: #adb2a2;*/
+
     color: #a6aa9d;
-    
+
     -webkit-transition: color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
@@ -186,12 +199,12 @@ a:hover {
     justify-content: space-between;
     max-width: 600px;
     margin-top: 30px;
-    
+
 }
 
 .index {
     margin-right: 30px;
-    
+
 }
 
 .contents {
@@ -212,22 +225,20 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    
+
 }
 
 
 /*image styling*/
 
-#work-container {
-    
-}
+#work-container {}
 
 #project-images {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 960px;
-    
+
 }
 
 
@@ -237,28 +248,157 @@ a:hover {
     border: 1px solid black;
     margin: 0 20px 60px 20px;
 
-    
+
     width: 430px;
     height: 300px;
 }
+
+
+.middle-text {
+    opacity: 0;
+    position: relative;
+    top: 45%;
+
+
+
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+/*WORK 01*/
 
 #work-01 {
     background: url(assets/imgs/work/01-Desiderium.png);
     background-position: center;
     background-size: cover;
-    
+
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
+
+#work-01:hover .middle-text {
+    opacity: 1;
+}
+
+#work-01:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/01-Desiderium.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/*WORK 02*/
 
 #work-02 {
     background: url(assets/imgs/work/02-ACMI.png);
     background-position: center;
     background-size: cover;
-    
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 
+#work-02:hover .middle-text {
+    opacity: 1;
+}
+
+#work-02:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/02-ACMI.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*WORK 03*/
+
+#work-03 {
+    background: url(assets/imgs/work/03-Provider_Artificer.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
 
 
+#work-03:hover .middle-text {
+    opacity: 1;
+}
+
+#work-03:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/03-Provider_Artificer.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*WORK 04*/
+
+#work-04 {
+    background: url(assets/imgs/work/04-Provider_Goodhood_02.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+
+#work-04:hover .middle-text {
+    opacity: 1;
+}
+
+#work-04:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/04-Provider_Goodhood_02.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*WORK 05*/
+
+#work-05 {
+    background: url(assets/imgs/work/05-Skos.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+
+#work-05:hover .middle-text {
+    opacity: 1;
+}
+
+#work-05:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/05-Skos.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
 
