@@ -218,23 +218,52 @@ a:hover {
 
 /*image styling*/
 
+#work-container {
+    
+}
+
 #project-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 960px;
+    
 }
 
-img.project-image  {
-    border: 1px solid black;
-}
+
 
 .project-image {
-    position:relative;
+    max-width: 960px;
+    border: 1px solid black;
+    margin: 0 20px 60px 20px;
+
+    
     width: 430px;
     height: 300px;
-    margin-bottom: 60px;
 }
+
+#work-01 {
+    background: url(assets/imgs/work/01-Desiderium.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#work-02 {
+    background: url(assets/imgs/work/02-ACMI.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
