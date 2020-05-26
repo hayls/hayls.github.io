@@ -60,12 +60,34 @@ html {
 
 body {}
 
+::-moz-selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
+::-webkit-selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
+::selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
+
+
 #wrapper {
     max-width: 960px;
     width: 80%;
     margin: 0 auto;
     padding: 130px 0 0 0;
 }
+
+footer {
+    margin-bottom: 150px;
+}
+
 
 
 /*navbar*/
@@ -96,7 +118,7 @@ body {}
 }
 
 .menu a:hover {
-    text-decoration: line-through;
+/*    text-decoration: line-through;*/
 
     /*
     -webkit-transition: color 0.3s ease-in-out;
@@ -146,13 +168,23 @@ h4 {
     text-align: center;
     color: #fff;
     font-family: "Lunchtype-Regular-22", sans-serif;
-    font-size: 1.2rem;
-    
-/*    font-family: "Happy-Times-Italic", serif;
+    font-size: 0.85rem;
+    text-decoration: underline;
+
+    /*    font-family: "Happy-Times-Italic", serif;
     font-size: 0.75rem;*/
     font-weight: 100;
     letter-spacing: 0.6px;
 
+}
+
+h5 {
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    font-weight: 100;
 }
 
 
@@ -192,6 +224,10 @@ a:hover {
 
 
 
+.num-space {
+    margin-right: 15px;
+}
+
 /*container styling*/
 
 .index-container {
@@ -199,6 +235,7 @@ a:hover {
     justify-content: space-between;
     max-width: 600px;
     margin-top: 30px;
+    
 
 }
 
@@ -229,6 +266,15 @@ a:hover {
 }
 
 
+.title {
+    margin: 15px 0 60px 0;
+    max-width: 440px;
+
+
+}
+
+
+
 /*image styling*/
 
 #work-container {}
@@ -246,7 +292,7 @@ a:hover {
 .project-image {
     max-width: 960px;
     border: 1px solid black;
-    margin: 0 20px 60px 20px;
+    margin: 0 20px;
 
 
     width: 430px;
@@ -293,6 +339,7 @@ a:hover {
 
 
 }
+
 
 /*WORK 02*/
 
@@ -401,10 +448,83 @@ a:hover {
 }
 
 
+/*WORK 06*/
+
+#work-06 {
+    background: url(assets/imgs/work/06-Journey.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
 
 
+#work-06:hover .middle-text {
+    opacity: 1;
+}
+
+#work-06:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/06-Journey.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
+/*WORK 07*/
+
+#work-07 {
+    background: url(assets/imgs/work/07-UTBW.png);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
 
 
+#work-07:hover .middle-text {
+    opacity: 1;
+}
+
+#work-07:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/07-UTBW.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*MISC PHOTOG*/
+
+#misc {
+    background: url(assets/imgs/work/08-Misc.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+
+#misc:hover .middle-text {
+    opacity: 1;
+}
+
+#misc:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/08-Misc.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 

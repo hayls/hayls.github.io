@@ -60,6 +60,21 @@ html {
 
 body {}
 
+::-moz-selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
+::-webkit-selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
+::selection {
+    background: #a6aa9d;
+    color: #fff;
+}
+
 #wrapper {
     max-width: 960px;
     width: 80%;
@@ -94,7 +109,7 @@ body {}
 }
 
 .menu a:hover {
-    text-decoration: line-through;
+/*    text-decoration: underline;*/
         
 /*
     -webkit-transition: color 0.3s ease-in-out;
