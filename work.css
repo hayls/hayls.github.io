@@ -505,7 +505,7 @@ a:hover {
 /*MISC PHOTOG*/
 
 #misc {
-    background: url(assets/imgs/work/08-Misc.jpeg);
+    background: url(assets/imgs/work/08-Misc.jpg);
     background-position: center;
     background-size: cover;
 
@@ -523,7 +523,7 @@ a:hover {
 #misc:hover {
     background:
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url(assets/imgs/work/08-Misc.jpeg);
+        url(assets/imgs/work/08-Misc.jpg);
     background-position: center;
     background-size: cover;
 }
