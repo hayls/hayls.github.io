@@ -118,7 +118,7 @@ footer {
 }
 
 .menu a:hover {
-/*    text-decoration: line-through;*/
+    /*    text-decoration: line-through;*/
 
     /*
     -webkit-transition: color 0.3s ease-in-out;
@@ -235,7 +235,7 @@ a:hover {
     justify-content: space-between;
     max-width: 600px;
     margin-top: 30px;
-    
+
 
 }
 
@@ -478,7 +478,7 @@ a:hover {
 /*WORK 07*/
 
 #work-07 {
-    background: url(assets/imgs/work/07-UTBW.png);
+    background: url(assets/imgs/work/08-Misc.jpg);
     background-position: center;
     background-size: cover;
 
@@ -496,10 +496,11 @@ a:hover {
 #work-07:hover {
     background:
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url(assets/imgs/work/07-UTBW.png);
+        url(assets/imgs/work/08-Misc.jpg);
     background-position: center;
     background-size: cover;
 }
+
 
 
 /*MISC PHOTOG*/
@@ -527,4 +528,3 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
-

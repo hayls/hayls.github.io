@@ -92,7 +92,7 @@ footer {
     width: 80%;
     margin: 0 auto 3vw auto;
     padding: 50px 0 50px 0;
-    
+
 
     display: flex;
     justify-content: space-between;
@@ -148,6 +148,7 @@ h1 {
     font-weight: 100;
     margin-bottom: 20px;
 
+    max-width: 40%;
 }
 
 
@@ -233,9 +234,7 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.heading-container {
-    max-width: 350px;
-}
+
 
 .text-flex {
     display: flex;
@@ -245,8 +244,8 @@ a:hover {
 
 .flex-col-01 {
     max-width: 400px;
-    
-     margin-bottom: 10%;
+
+    margin-bottom: 10%;
 }
 
 .flex-col-02 {
@@ -304,8 +303,8 @@ a:hover {
 .work-gallery img {
     width: 100%;
     margin-bottom: 4vw;
-    
-    
+
+
 }
 
 .flex-img-cont {
@@ -336,18 +335,10 @@ video {
 
 
 
-canvas { 
-	display: block; 
-	position: fixed;
-	z-index: -1;
-	left: 0; 
-	top: 0; 
+canvas {
+    display: block;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
 }
-
-
-
-
-
-
-
-

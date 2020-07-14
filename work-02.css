@@ -93,6 +93,7 @@ footer {
     margin: 0 auto 3vw auto;
     padding: 50px 0 50px 0;
     
+
     display: flex;
     justify-content: space-between;
 }
@@ -147,53 +148,23 @@ h1 {
     font-weight: 100;
     margin-bottom: 20px;
 
-    margin-top: 10%;
+    max-width: 40%;
+
 }
 
 h2 {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 290px;
 
     color: #444;
     font-family: "Happy-Times-Italic", serif;
     font-size: 0.85rem;
     font-weight: 100;
     line-height: 1.3rem;
-    margin-bottom: 8%;
-    text-align: center;
-}
-
-.number {
-    color: #444;
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 0.75rem;
-    font-weight: 100;
 }
 
 h3 {
-    color: #444;
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 2rem;
-    letter-spacing: 0.4px;
-    font-weight: 100;
-    line-height: 1rem;
-}
+    max-width: 290px;
 
-h4 {
-    text-align: center;
-    color: #fff;
-    font-family: "Lunchtype-Regular-22", sans-serif;
-    font-size: 0.85rem;
-    text-decoration: underline;
-
-    /*    font-family: "Happy-Times-Italic", serif;
-    font-size: 0.75rem;*/
-    font-weight: 100;
-    letter-spacing: 0.6px;
-
-}
-
-h5 {
     color: #444;
     font-family: "Happy-Times-Italic", serif;
     font-size: 1.5rem;
@@ -239,6 +210,7 @@ a:hover {
 }
 
 
+
 .italics {
     font-family: "Happy-Times-Italic", serif;
     font-size: 0.8rem;
@@ -255,45 +227,21 @@ a:hover {
 
 /*container styling*/
 
-.index-container {
-    max-width: 600px;
-
-}
-
-.index {
-    margin-right: 30px;
-
-}
-
-.row-01 {
-    float: right;
-    margin-bottom: 40px;
-
-}
-
-
 
 .intro-container {
 
-    margin: 0 auto;
-    text-align: center;
-
+    margin-top: 10%;
     margin-bottom: 50px;
 }
 
-.heading-container {
-    max-width: 350px;
-}
 
 .text-flex {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 
-
-flex-col-01 {
+.flex-col-01 {
     max-width: 400px;
     
      margin-bottom: 10%;
@@ -304,10 +252,17 @@ flex-col-01 {
 }
 
 .desc {
+
     margin-bottom: 40px;
+
 }
 
+
+
+
 /*column styling*/
+
+
 
 .hero img {
     width: 100%;
@@ -347,6 +302,8 @@ flex-col-01 {
 .work-gallery img {
     width: 100%;
     margin-bottom: 4vw;
+    
+    
 }
 
 .flex-img-cont {
@@ -355,17 +312,22 @@ flex-col-01 {
     flex-wrap: wrap;
 }
 
-#img-01 {
-    width: 48%;
+#img-03 {
+    width: 48.5%;
+
 }
 
-#img-02 {
-    width: 48%;
+#img-04 {
+    width: 45%;
+
 }
 
 video {
     width: 100%;
 }
+
+
+
 
 /*gallery animations*/
 
@@ -379,3 +341,12 @@ canvas {
 	left: 0; 
 	top: 0; 
 }
+
+
+
+
+
+
+
+
+
