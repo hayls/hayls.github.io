@@ -90,13 +90,63 @@ body {}
 footer {
     max-width: 1200px;
     width: 80%;
-    margin: 0 auto 3vw auto;
-    padding: 50px 0 50px 0;
+    margin: 0 auto 6vw auto;
+    padding: 20px 0 0px 0;
     
 
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
+
+.work-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.prev-button {
+    width: 0;
+	height: 0;
+   
+	border-top: 8px solid transparent;
+	border-right: 16px solid #444;
+	border-bottom: 8px solid transparent;
+}
+
+.prev-button:hover {
+    
+    border-right: 16px solid #a6aa9d;
+
+
+    -webkit-transition: border-right 0.3s ease-in-out;
+    -moz-transition: border-right 0.3s ease-in-out;
+    transition: border-right 0.3s ease-in-out;
+}
+
+.next-button {
+    width: 0;
+	height: 0;
+   
+	border-top: 8px solid transparent;
+	border-left: 16px solid #444;
+	border-bottom: 8px solid transparent;
+}
+
+.next-button:hover {
+    
+    border-left: 16px solid #a6aa9d;
+
+
+    -webkit-transition: border-left 0.3s ease-in-out;
+    -moz-transition: border-left 0.3s ease-in-out;
+    transition: border-left 0.3s ease-in-out;
+}
+
+
+
 
 
 
@@ -166,10 +216,25 @@ h3 {
     max-width: 290px;
 
     color: #444;
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 1.5rem;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
     font-weight: 100;
     line-height: 1.3rem;
+}
+
+h4 {
+    max-width: 20%;
+    
+
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 1.1rem;
+    
+    text-align: right;
 }
 
 
@@ -312,19 +377,18 @@ a:hover {
     flex-wrap: wrap;
 }
 
-#img-03 {
+
+
+#img-01 {
     width: 48.5%;
 
 }
 
-#img-04 {
-    width: 45%;
+#img-02 {
+    width: 48.5%;
 
 }
 
-video {
-    width: 100%;
-}
 
 
 
