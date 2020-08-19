@@ -378,6 +378,10 @@ a:hover {
     
 }
 
+.vid {
+    margin-bottom: 7vw;
+}
+
 .flex-img-cont {
     display: flex;
     justify-content: space-between;
