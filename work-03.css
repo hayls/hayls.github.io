@@ -306,14 +306,13 @@ a:hover {
 
 .flex-col-01 {
     max-width: 400px;
-
-    margin-bottom: 10%;
+    
+     margin-bottom: 8%;
 }
 
 .flex-col-02 {
-    max-width: 39vw;
+    max-width: 600px;
 }
-
 .desc {
 
     margin-bottom: 40px;
