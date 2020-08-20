@@ -84,6 +84,7 @@ body {}
     margin: 0 auto;
     padding-top: 50px;
 
+
 }
 
 
@@ -108,7 +109,6 @@ footer {
     margin-bottom: 100px;
 }
 
-/*
 .prev-button {
     width: 0;
 	height: 0;
@@ -127,7 +127,6 @@ footer {
     -moz-transition: border-right 0.3s ease-in-out;
     transition: border-right 0.3s ease-in-out;
 }
-*/
 
 .next-button {
     width: 0;
@@ -147,18 +146,6 @@ footer {
     -moz-transition: border-left 0.3s ease-in-out;
     transition: border-left 0.3s ease-in-out;
 }
-
-
-
-/*
-hr {
-    border: none;
-    color: #444;
-    background-color: #444; 
-    height: 1px;
-}
-*/
-
 
 
 /*navbar*/
@@ -209,11 +196,11 @@ h1 {
     font-weight: 100;
     margin-bottom: 20px;
 
-    max-width: 40%;
 }
 
+
 h2 {
-    max-width: 290px;
+    max-width: 300px;
 
     color: #444;
     font-family: "Happy-Times-Italic", serif;
@@ -231,6 +218,17 @@ h3 {
     letter-spacing: 0.5px;
     font-weight: 100;
     line-height: 1.3rem;
+    
+}
+
+.text h3 {
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.text h5 {
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -244,6 +242,15 @@ h4 {
     line-height: 1rem;
     
     text-align: right;
+}
+
+h5 {
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 1.3rem;  
 }
 
 p {
@@ -268,6 +275,10 @@ a {
 }
 
 
+.last-p {
+    margin-bottom: 35px;
+}
+
 a:hover {
     /*    color: #b59784;*/
     /*    color: #8d6054;*/
@@ -291,7 +302,9 @@ a:hover {
     letter-spacing: 0.001rem;
 }
 
-
+.key {
+    margin-bottom: 0;
+}
 
 /*image styling*/
 
@@ -304,9 +317,11 @@ a:hover {
 .intro-container {
 
     margin-top: 10%;
-    margin-bottom: 50px;
 }
 
+.heading-container {
+    max-width: 350px;
+}
 
 .text-flex {
     display: flex;
@@ -326,12 +341,28 @@ a:hover {
 
 .desc {
 
-    margin-bottom: 40px;
 
 }
 
+.sec {
+    margin-bottom: 70px;
+}
 
 
+.text {
+    max-width: 900px;
+    margin: 0 auto 200px auto;
+    
+}
+
+
+#key-flex {
+    display: flex;
+}
+
+#key-flex-01 {
+    margin-right: 30px;
+}
 
 /*column styling*/
 
@@ -379,105 +410,12 @@ a:hover {
     
 }
 
-.vid {
-    margin-bottom: 7vw;
-}
 
 .flex-img-cont {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-#img-03 {
-    width: 45%;
-
-}
-
-#img-04 {
-    width: 49.8%;
-}
-
-video {
-    width: 100%;
-}
-
-
-/*gallery animations*/
-
-
-
-
-canvas { 
-	display: block; 
-	position: fixed;
-	z-index: -1;
-	left: 0; 
-	top: 0; 
-}
-
-
-
-
-
-
-/*MEDIA QUERIES*/
-
-
-/*Smartphones*/
-
-
-@media only screen and (max-width:320px)
-{
-
-    h1 {
-    font-size: 3rem;
-    letter-spacing: 0.75px;
-    margin-bottom: 20px;
-
-    max-width: 100%;
-    }
-    
-    h2 {
-    max-width: 100%;
-
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    }
-
-    .italics {
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 0.98rem;
-    font-weight: 100;
-    letter-spacing: 0.001rem;
-    }
-    
-    p {
-    
-    font-size: 1rem;
-    letter-spacing: 0.5px;
-    line-height: 1.3rem;
-    margin-bottom: 1.9rem;
-}
-
-    
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

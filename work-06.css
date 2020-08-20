@@ -91,13 +91,14 @@ body {}
 footer {
     max-width: 1200px;
     width: 80%;
-    margin: 0 auto 6vw auto;
+    margin: 0 auto 100px auto;
     padding: 20px 0 0px 0;
     
 
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
 }
 
 .work-nav {
@@ -221,14 +222,13 @@ h3 {
 
 h4 {
     max-width: 20%;
-    
 
     color: #444;
     font-family: "Lunchtype-Regular-22", sans-serif;
-    font-size: 0.75rem;
-    letter-spacing: 0.5px;
+    font-size: 0.68rem;
+    letter-spacing: 0.3px;
     font-weight: 100;
-    line-height: 1.1rem;
+    line-height: 1rem;
     
     text-align: right;
 }
