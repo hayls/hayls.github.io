@@ -430,8 +430,9 @@ canvas {
 @media only screen and (min-width: 320px) and (max-width: 480px)
 {
 
+/*
     h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.75px;
     margin-bottom: 20px;
 
@@ -441,20 +442,20 @@ canvas {
     h2 {
     max-width: 100%;
 
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     line-height: 1.6rem;
     }
 
     .italics {
     font-family: "Happy-Times-Italic", serif;
-    font-size: 0.98rem;
+    font-size: 0.8rem;
     font-weight: 100;
     letter-spacing: 0.001rem;
     }
     
     p {
     
-    font-size: 1rem;
+    font-size: 0.7rem;
     letter-spacing: 0.5px;
     line-height: 1.3rem;
     margin-bottom: 1.9rem;
@@ -486,8 +487,22 @@ canvas {
     line-height: 1.3rem;
 }
     
+*/
     footer {
-        margin-bottom: 10vw;
+        margin-bottom: 150px;
+    }
+    
+    h4 {
+    max-width: 40%;
+
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    line-height: 1rem;
+    
+    text-align: right;
     }
     
 }
