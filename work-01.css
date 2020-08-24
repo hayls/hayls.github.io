@@ -429,67 +429,42 @@ canvas {
 
 @media only screen and (min-width: 320px) and (max-width: 480px)
 {
-
-/*
+    
     h1 {
-    font-size: 2rem;
-    letter-spacing: 0.75px;
-    margin-bottom: 20px;
-
-    max-width: 100%;
-    }
-    
-    h2 {
-    max-width: 100%;
-
-    font-size: 0.5rem;
-    line-height: 1.6rem;
-    }
-
-    .italics {
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 0.8rem;
-    font-weight: 100;
-    letter-spacing: 0.001rem;
-    }
-    
-    p {
-    
-    font-size: 0.7rem;
-    letter-spacing: 0.5px;
-    line-height: 1.3rem;
-    margin-bottom: 1.9rem;
-}
-
-    .flex-col-01 {
-    max-width: 100%;
-    
-     margin-bottom: 4%;
-    }
-
-    .flex-col-02 {
-    max-width: 100%;
-    }
-    
-    #wrapper {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 50px;
-
-    }
-    
-    h3 {
     color: #444;
     font-family: "Lunchtype-Regular-22", sans-serif;
-    font-size: 0.85rem;
-    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    letter-spacing: 0.75px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+    max-width: 40%;
+    }
+
+    h2 {
+    max-width: 290px;
+
+    color: #444;
+    font-family: "Happy-Times-Italic", serif;
+    font-size: 0.7rem;
     font-weight: 100;
     line-height: 1.3rem;
 }
     
-*/
+.menu {
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.75px;
+    font-weight: 100;
+    /*    border: 1px solid red;*/
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
     footer {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
     
     h4 {
