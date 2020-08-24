@@ -572,6 +572,15 @@ a:hover {
         margin-bottom: 30px;
     }
 
+    .project-image {
+        max-width: 960px;
+        border: 1px solid black;
+        margin: 0 20px;
+
+
+        width: 80%;
+    }
+
 
 
 }
