@@ -235,8 +235,16 @@ a:hover {
     }
     
 
+    #welcome {
+        width: 50px;
+    }
+    
     #collab-text {
-        margin-right: 0px;
+        margin-right: 4px;
+    }
+    
+    #smile {
+        width: 40px;
     }
 
     #wrapper {
@@ -254,6 +262,13 @@ a:hover {
     justify-content: space-between;
     align-items: flex-end;
 }
+    
+    #clockbox {
+        font-family: "Lunchtype-Regular-2", sans-serif;
+        letter-spacing: 0.75px;
+        font-size: 0.65rem;
+        font-weight: 100;
+    }
 
 
 }
