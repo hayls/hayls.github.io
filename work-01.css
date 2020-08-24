@@ -52,7 +52,7 @@ figcaption {
     display: block;
 }
 
-html {
+    html {
     height: 100%;
     background-color: #f4f1ea;
     font-size: 100%;
@@ -491,7 +491,6 @@ canvas {
     }
     
 }
-
 
 
 
