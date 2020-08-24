@@ -453,7 +453,7 @@ a:hover {
 
         color: #444;
         font-family: "Happy-Times-Italic", serif;
-        font-size: 0.73rem;
+        font-size: 0.75rem;
         font-weight: 100;
         line-height: 1.1rem;
     }
@@ -473,7 +473,7 @@ a:hover {
     .intro-container {
 
         margin-top: 10%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     h3 {
