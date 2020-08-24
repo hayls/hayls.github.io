@@ -412,3 +412,105 @@ canvas {
 
 
 
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*Smartphones*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #wrapper {
+        padding-top: 80px;
+    }
+    
+    h1 {
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        margin-bottom: 20px;
+
+        max-width: 40%;
+    }
+
+    h2 {
+        max-width: 290px;
+
+        color: #444;
+        font-family: "Happy-Times-Italic", serif;
+        font-size: 0.73rem;
+        font-weight: 100;
+        line-height: 1.1rem;
+    }
+
+    .menu {
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        /*    border: 1px solid red;*/
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    h3 {
+    max-width: 290px;
+
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    line-height: 1.3rem;
+    }
+
+
+    h4 {
+        max-width: 40%;
+
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+        font-weight: 100;
+        line-height: 1rem;
+
+        text-align: right;
+    }
+
+    .desc {
+
+    margin-bottom: 40px;
+
+    }
+
+    .work-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+

@@ -93,12 +93,12 @@ footer {
     width: 80%;
     margin: 0 auto 100px auto;
     padding: 20px 0 0px 0;
-    
+
 
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    
+
 }
 
 .work-nav {
@@ -111,15 +111,15 @@ footer {
 
 .prev-button {
     width: 0;
-	height: 0;
-   
-	border-top: 8px solid transparent;
-	border-right: 16px solid #444;
-	border-bottom: 8px solid transparent;
+    height: 0;
+
+    border-top: 8px solid transparent;
+    border-right: 16px solid #444;
+    border-bottom: 8px solid transparent;
 }
 
 .prev-button:hover {
-    
+
     border-right: 16px solid #a6aa9d;
 
 
@@ -130,15 +130,15 @@ footer {
 
 .next-button {
     width: 0;
-	height: 0;
-   
-	border-top: 8px solid transparent;
-	border-left: 16px solid #444;
-	border-bottom: 8px solid transparent;
+    height: 0;
+
+    border-top: 8px solid transparent;
+    border-left: 16px solid #444;
+    border-bottom: 8px solid transparent;
 }
 
 .next-button:hover {
-    
+
     border-left: 16px solid #a6aa9d;
 
 
@@ -218,7 +218,7 @@ h3 {
     letter-spacing: 0.5px;
     font-weight: 100;
     line-height: 1.3rem;
-    
+
 }
 
 .text h3 {
@@ -240,7 +240,7 @@ h4 {
     letter-spacing: 0.3px;
     font-weight: 100;
     line-height: 1rem;
-    
+
     text-align: right;
 }
 
@@ -250,7 +250,7 @@ h5 {
     font-size: 0.85rem;
     letter-spacing: 0.5px;
     font-weight: 100;
-    line-height: 1.3rem;  
+    line-height: 1.3rem;
 }
 
 p {
@@ -331,18 +331,15 @@ a:hover {
 
 .flex-col-01 {
     max-width: 400px;
-    
-     margin-bottom: 8%;
+
+    margin-bottom: 8%;
 }
 
 .flex-col-02 {
     max-width: 600px;
 }
 
-.desc {
-
-
-}
+.desc {}
 
 .sec {
     margin-bottom: 70px;
@@ -352,7 +349,7 @@ a:hover {
 .text {
     max-width: 900px;
     margin: 0 auto 200px auto;
-    
+
 }
 
 
@@ -406,8 +403,8 @@ a:hover {
 .work-gallery img {
     width: 100%;
     margin-bottom: 4vw;
-    
-    
+
+
 }
 
 
@@ -422,3 +419,109 @@ a:hover {
 
 
 
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*Smartphones*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #wrapper {
+        padding-top: 80px;
+    }
+
+    h1 {
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        margin-bottom: 20px;
+
+        max-width: 40%;
+    }
+
+    h2 {
+        max-width: 290px;
+
+        color: #444;
+        font-family: "Happy-Times-Italic", serif;
+        font-size: 0.73rem;
+        font-weight: 100;
+        line-height: 1.1rem;
+    }
+
+    .menu {
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        /*    border: 1px solid red;*/
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .intro-container {
+
+        margin-top: 10%;
+        margin-bottom: 40px;
+    }
+
+    h3 {
+        max-width: 290px;
+
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        font-weight: 100;
+        line-height: 1.3rem;
+    }
+
+
+    h4 {
+        max-width: 40%;
+
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+        font-weight: 100;
+        line-height: 1rem;
+
+        text-align: right;
+    }
+
+    .desc {
+
+        margin-bottom: 40px;
+
+    }
+
+    .work-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+}
