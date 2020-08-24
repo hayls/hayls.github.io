@@ -109,15 +109,16 @@ body {}
 }
 
 .menu a:hover {
-/*    text-decoration: underline;*/
-        
-/*
+    /*    text-decoration: underline;*/
+
+    /*
     -webkit-transition: color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 */
-    
+
 }
+
 /*typography styling*/
 
 h2 {
@@ -134,14 +135,14 @@ a {
 }
 
 a:hover {
-/*    color: #b59784;*/
-/*    color: #8d6054;*/
-/*    color: #b2ada2;*/
-/*    color: #a69c87;*/
-/*    color: #adb2a2;*/
-    
+    /*    color: #b59784;*/
+    /*    color: #8d6054;*/
+    /*    color: #b2ada2;*/
+    /*    color: #a69c87;*/
+    /*    color: #adb2a2;*/
+
     color: #a6aa9d;
-    
+
     -webkit-transition: color 0.3s ease-in-out;
     -moz-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
@@ -166,11 +167,11 @@ a:hover {
 }
 
 .top-right {
-    
+
     display: flex;
     align-items: center;
-/*    background-color: #fff;*/
-/*    border: 0.5px solid #000;*/
+    /*    background-color: #fff;*/
+    /*    border: 0.5px solid #000;*/
     padding: 5px;
 }
 
@@ -196,4 +197,63 @@ a:hover {
 
 .clear {
     clear: both;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*Smartphones*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    .menu {
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        /*    border: 1px solid red;*/
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    h2 {
+        font-family: "Lunchtype-Regular-2", sans-serif;
+        letter-spacing: 0.75px;
+        font-size: 0.65rem;
+        font-weight: 100;
+    }
+    
+
+    #collab-text {
+        margin-right: 0px;
+    }
+
+    #wrapper {
+        max-width: 960px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bottom-bar {
+    height: 60vh;
+    margin-bottom: 50px;
+    padding: 0 10px 0 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
 }
