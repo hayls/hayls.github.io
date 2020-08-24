@@ -528,3 +528,50 @@ a:hover {
     background-position: center;
     background-size: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/*Smartphones*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+
+    .menu {
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        /*    border: 1px solid red;*/
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .row-01 {
+        display: inline-block;
+        margin-bottom: 40px;
+
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+
+
+}
