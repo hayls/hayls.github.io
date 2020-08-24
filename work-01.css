@@ -430,7 +430,7 @@ canvas {
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
     #wrapper {
-        padding-top: 130px;
+        padding-top: 80px;
     }
     
     h1 {
@@ -449,7 +449,7 @@ canvas {
 
         color: #444;
         font-family: "Happy-Times-Italic", serif;
-        font-size: 0.7rem;
+        font-size: 0.73rem;
         font-weight: 100;
         line-height: 1.1rem;
     }
