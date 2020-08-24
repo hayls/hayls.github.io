@@ -487,17 +487,20 @@ canvas {
         text-align: right;
     }
 
+    p {
+        margin-bottom: 50px;
+    }
 
     .work-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 60px;
-        margin-bottom: 80px;
+        margin-bottom: 65px;
     }
 
     footer {
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
 }
