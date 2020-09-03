@@ -87,17 +87,69 @@ body {}
 
 }
 
+
 footer {
+    position: fixed;
     max-width: 1200px;
     width: 80%;
-    margin: 0 auto 3vw auto;
-    padding: 50px 0 50px 0;
-    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 0 0px 0;
+
 
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20%;
+
 }
 
+.work-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.prev-button {
+    width: 0;
+    height: 0;
+
+    border-top: 8px solid transparent;
+    border-right: 16px solid #444;
+    border-bottom: 8px solid transparent;
+}
+
+.prev-button:hover {
+
+    border-right: 16px solid #a6aa9d;
+
+
+    -webkit-transition: border-right 0.3s ease-in-out;
+    -moz-transition: border-right 0.3s ease-in-out;
+    transition: border-right 0.3s ease-in-out;
+}
+
+.next-button {
+    width: 0;
+    height: 0;
+
+    border-top: 8px solid transparent;
+    border-left: 16px solid #444;
+    border-bottom: 8px solid transparent;
+}
+
+.next-button:hover {
+
+    border-left: 16px solid #a6aa9d;
+
+
+    -webkit-transition: border-left 0.3s ease-in-out;
+    -moz-transition: border-left 0.3s ease-in-out;
+    transition: border-left 0.3s ease-in-out;
+}
 
 
 /*navbar*/
@@ -165,10 +217,24 @@ h3 {
     max-width: 290px;
 
     color: #444;
-    font-family: "Happy-Times-Italic", serif;
-    font-size: 1.5rem;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
     font-weight: 100;
     line-height: 1.3rem;
+}
+
+h4 {
+    max-width: 20%;
+
+    color: #444;
+    font-family: "Lunchtype-Regular-22", sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    line-height: 1rem;
+
+    text-align: right;
 }
 
 
@@ -219,11 +285,6 @@ a:hover {
 
 
 
-/*image styling*/
-
-
-
-
 /*container styling*/
 
 
@@ -245,12 +306,12 @@ a:hover {
 
 .flex-col-01 {
     max-width: 400px;
-    
-     margin-bottom: 10%;
+
+    margin-bottom: 8%;
 }
 
 .flex-col-02 {
-    max-width: 38vw;
+    max-width: 600px;
 }
 
 .desc {
@@ -266,10 +327,6 @@ a:hover {
 
 
 
-.hero img {
-    width: 100%;
-    margin-bottom: 4vw;
-}
 
 .gallery {
 
@@ -301,19 +358,11 @@ a:hover {
 
 /*image styling unique*/
 
-.work-gallery img {
-    width: 100%;
-    margin-bottom: 4vw;
-    
-    
-}
 
-.flex-img-cont {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
+.vid {
+    margin-bottom: 7vw;
+}
 
 
 video {
@@ -323,23 +372,431 @@ video {
 
 
 
-/*gallery animations*/
+
+
+/*IMAGE STYLING*/
+
+
+#img01 img {
+    width: 200px;
+}
+
+#img01 {
+    position: absolute;
+    cursor: move;
+    top: 50%;
+}
 
 
 
+#img02 img {
+    width: 320px;
+}
 
-canvas { 
-	display: block; 
-	position: fixed;
-	z-index: -1;
-	left: 0; 
-	top: 0; 
+#img02 {
+    position: absolute;
+    cursor: move;
+    left: 26%;
+    top: 55%;
+}
+
+
+#img03 img {
+    width: 200px;
+}
+
+#img03 {
+    position: absolute;
+    cursor: move;
+    left: 52%;
+    top: 45%;
+}
+
+
+#img04 img {
+    width: 300px;
+}
+
+#img04 {
+    position: absolute;
+    cursor: move;
+    top: 50%;
+    right: 10%;
+}
+
+
+#img05 img {
+    width: 180px;
+}
+
+#img05 {
+    position: absolute;
+    cursor: move;
+    left: 11%;
+    top: 95%;
+}
+
+
+#img06 img {
+    width: 250px;
+}
+
+#img06 {
+    position: absolute;
+    cursor: move;
+    top: 115%;
+    left: 30%;
+}
+
+
+#img07 img {
+    width: 240px;
+}
+
+#img07 {
+    position: absolute;
+    cursor: move;
+    top: 90%;
+    left: 50%;
+}
+
+
+#img08 img {
+    width: 270px;
+}
+
+#img08 {
+    position: absolute;
+    cursor: move;
+    top: 115%;
+    right: 11%;
+    
+}
+
+
+#img09 img {
+    width: 230px;
+}
+
+#img09 {
+    position: absolute;
+    cursor: move;
+    top: 130%;
+}
+
+#img10 img {
+    width: 250px;
+}
+
+#img10 {
+    position: absolute;
+    cursor: move;
+    top: 137%;
+    left: 50%;
+}
+
+#img11 img {
+    width: 230px;
+}
+
+#img11 {
+    position: absolute;
+    cursor: move;
+    top: 176%;
+    left: 12%;
+}
+
+#img12 img {
+    width: 240px;
+}
+
+#img12 {
+    position: absolute;
+    cursor: move;
+    top: 165%;
+    left: 32%;
+}
+
+
+#img13 img {
+    width: 200px;
+}
+
+#img13 {
+    position: absolute;
+    cursor: move;
+    top: 168%;
+    left: 53%;
+}
+
+
+#img14 img {
+    width: 260px;
+}
+
+#img14 {
+    position: absolute;
+    cursor: move;
+    top: 174%;
+    right: 10%;
+}
+
+
+#img15 img {
+    width: 230px;
+}
+
+#img15 {
+    position: absolute;
+    cursor: move;
+    top: 208%;
+    left: 51%;
+}
+
+
+
+#img16 img {
+    width: 190px;
+}
+
+#img16 {
+    position: absolute;
+    cursor: move;
+    top: 229%;
+    left: 13%;
+}
+
+
+#img17 img {
+    width: 210px;
+}
+
+#img17 {
+    position: absolute;
+    cursor: move;
+    top: 218%;
+    left: 31%;
+}
+
+
+#img18 img {
+    width: 240px;
+}
+
+#img18 {
+    position: absolute;
+    cursor: move;
+    top: 269%;
+    left: 10%;
+}
+
+
+#img19 img {
+    width: 220px;
+    
+}
+
+#img19 {
+    position: absolute;
+    cursor: move;
+    top: 263%;
+    left: 30%;
+}
+
+
+#img20 img {
+    width: 270px;
+}
+
+#img20 {
+    position: absolute;
+    cursor: move;
+    top: 225%;
+    right: 11%;
+}
+
+#img21 img {
+    width: 220px;
+}
+
+#img21 {
+    position: absolute;
+    cursor: move;
+    top: 254%;
+    left: 49%;
+}
+
+
+#img22 img {
+    width: 315px;
+}
+
+#img22 {
+    position: absolute;
+    cursor: move;
+    top: 258%;
+    right: 10%;
+}
+
+
+#img23 img {
+    width: 270px;
+}
+
+#img23 {
+    position: absolute;
+    cursor: move;
+    top: 318%;
+    left: 18%;
+}
+
+
+#img24 img {
+    width: 500px;
+}
+
+#img24 {
+    position: absolute;
+    cursor: move;
+}
+
+
+#img25 img {
+    width: 300px;
+}
+
+#img25 {
+    position: absolute;
+    cursor: move;
+}
+
+
+#img26 img {
+    width: 300px;
+}
+
+#img26 {
+    position: absolute;
+    cursor: move;
+}
+
+#img27 img {
+    width: 300px;
+}
+
+#img27 {
+    position: absolute;
+    cursor: move;
+}
+
+
+#img28 img {
+    width: 300px;
+}
+
+#img28 {
+    position: absolute;
+    cursor: move;
+}
+
+#img29 img {
+    width: 300px;
+}
+
+#img29 {
+    position: absolute;
+    cursor: move;
 }
 
 
 
 
+/*MEDIA QUERIES*/
 
 
+/*Smartphones*/
 
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    #wrapper {
+        padding-top: 80px;
+    }
+
+    h1 {
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        margin-bottom: 20px;
+
+        max-width: 40%;
+    }
+
+    h2 {
+        max-width: 290px;
+
+        color: #444;
+        font-family: "Happy-Times-Italic", serif;
+        font-size: 0.73rem;
+        font-weight: 100;
+        line-height: 1.1rem;
+    }
+
+    .menu {
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.75rem;
+        letter-spacing: 0.75px;
+        font-weight: 100;
+        /*    border: 1px solid red;*/
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h3 {
+        max-width: 290px;
+
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        font-weight: 100;
+        line-height: 1.3rem;
+    }
+
+
+    h4 {
+        max-width: 40%;
+
+        color: #444;
+        font-family: "Lunchtype-Regular-22", sans-serif;
+        font-size: 0.6rem;
+        letter-spacing: 0.3px;
+        font-weight: 100;
+        line-height: 1rem;
+
+        text-align: right;
+    }
+
+    .desc {
+
+        margin-bottom: 40px;
+
+    }
+
+    .work-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+}
