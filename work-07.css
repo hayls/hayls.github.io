@@ -350,6 +350,7 @@ a:hover {
 .work-gallery {
     margin: 0 auto;
     text-align: center;
+    
 }
 
 
@@ -628,7 +629,7 @@ video {
 
 
 #img22 img {
-    width: 315px;
+    width: 300px;
 }
 
 #img22 {
@@ -640,72 +641,86 @@ video {
 
 
 #img23 img {
-    width: 270px;
+    width: 250px;
 }
 
 #img23 {
     position: absolute;
     cursor: move;
-    top: 318%;
-    left: 18%;
+    top: 317%;
+    left: 13%;
 }
 
 
 #img24 img {
-    width: 500px;
+    width: 255px;
 }
 
 #img24 {
     position: absolute;
     cursor: move;
+    top: 307%;
+    left: 33%;
 }
 
 
 #img25 img {
-    width: 300px;
+    width: 200px;
 }
 
 #img25 {
     position: absolute;
     cursor: move;
+    top: 303%;
+    left: 53%;
 }
 
 
 #img26 img {
-    width: 300px;
+    width: 220px;
 }
 
 #img26 {
     position: absolute;
     cursor: move;
+    top: 334%;
+    left: 34%;
 }
 
 #img27 img {
-    width: 300px;
+    width: 200px;
 }
 
 #img27 {
     position: absolute;
     cursor: move;
+    top: 367%;
+    left: 18%;
+    margin-bottom: 150px;
 }
 
 
 #img28 img {
-    width: 300px;
+    width: 280px;
 }
 
 #img28 {
     position: absolute;
     cursor: move;
+    top: 324%;
+    right: 10%;
 }
 
 #img29 img {
-    width: 300px;
+    width: 230px;
 }
 
 #img29 {
     position: absolute;
     cursor: move;
+    top: 349%;
+    left: 52%;
+    
 }
 
 
@@ -721,6 +736,7 @@ video {
 
     #wrapper {
         padding-top: 80px;
+        margin-bottom: 300px;
     }
 
     h1 {
