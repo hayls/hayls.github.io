@@ -397,7 +397,7 @@ a:hover {
 /*WORK 04*/
 
 #work-04 {
-    background: url(assets/imgs/work/04-Provider_Goodhood_02.png);
+    background: url(assets/imgs/work/04-hippo.png);
     background-position: center;
     background-size: cover;
 
@@ -415,7 +415,7 @@ a:hover {
 #work-04:hover {
     background:
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url(assets/imgs/work/04-Provider_Goodhood_02.png);
+        url(assets/imgs/work/04-hippo.png);
     background-position: center;
     background-size: cover;
 }
@@ -478,7 +478,7 @@ a:hover {
 /*WORK 07*/
 
 #work-07 {
-    background: url(assets/imgs/work/08-Misc.jpg);
+    background: url(assets/imgs/work/07-Misc.jpg);
     background-position: center;
     background-size: cover;
 
@@ -496,7 +496,7 @@ a:hover {
 #work-07:hover {
     background:
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url(assets/imgs/work/08-Misc.jpg);
+        url(assets/imgs/work/07-Misc.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -506,7 +506,7 @@ a:hover {
 /*MISC PHOTOG*/
 
 #misc {
-    background: url(assets/imgs/work/08-Misc.jpg);
+    background: url(assets/imgs/work/07-Misc.jpg);
     background-position: center;
     background-size: cover;
 
@@ -524,12 +524,36 @@ a:hover {
 #misc:hover {
     background:
         linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url(assets/imgs/work/08-Misc.jpg);
+        url(assets/imgs/work/07-Misc.jpg);
     background-position: center;
     background-size: cover;
 }
 
 
+
+
+#work-08 {
+    background: url(assets/imgs/work/08-uts.png);
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+#work-08:hover .middle-text {
+    opacity: 1;
+}
+
+#work-08:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/08-uts.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
 

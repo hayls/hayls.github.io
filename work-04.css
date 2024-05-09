@@ -87,6 +87,7 @@ body {}
 
 }
 
+
 footer {
     max-width: 1200px;
     width: 80%;
@@ -311,7 +312,7 @@ a:hover {
 }
 
 .flex-col-02 {
-    max-width: 610px;
+    max-width: 600px;
 }
 
 .desc {
@@ -366,29 +367,17 @@ a:hover {
     width: 100%;
     margin-bottom: 4vw;
     
-    
 }
+
 
 .flex-img-cont {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-#img-03 {
-    width: 48.5%;
-
+.flex-img-cont img {
+    max-width: 37vw;
 }
-
-#img-04 {
-    width: 45%;
-
-}
-
-video {
-    width: 100%;
-}
-
 
 
 
@@ -404,8 +393,6 @@ canvas {
 	left: 0; 
 	top: 0; 
 }
-
-
 
 
 
@@ -502,7 +489,7 @@ canvas {
         padding-bottom: 50px;
     }
 
-}                                   
+}
 
 
 
