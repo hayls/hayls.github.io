@@ -557,6 +557,28 @@ a:hover {
 
 
 
+#work-09 {
+    background: url(assets/imgs/work/09-re.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+#work-09:hover .middle-text {
+    opacity: 1;
+}
+
+#work-09:hover {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+        url(assets/imgs/work/08-uts.png);
+    background-position: center;
+    background-size: cover;
+}
 
 
 
